@@ -1,0 +1,142 @@
+.body {
+  font-size: 12px;
+  background-color: rgba(164, 245, 224, 0);
+}
+.parent {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  flex-direction: row;
+}
+
+.image-style {
+  display: block;
+  border-radius: 110px;
+  border: 3px solid #d18904;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  height: 200px;
+  width: 200px;
+}
+.icon-style {
+  margin: 0 10px 0 0;
+  color: rgb(255, 196, 1);
+  font-size: 25px;
+}
+.suitcase-style {
+  color: pink;
+  justify-content: space-around;
+}
+
+.film-style {
+  color: black;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.diamond-style {
+  color: lightblue;
+  align-items: center;
+}
+
+.left-side h3 {
+  color: #ffcc00;
+  background-color: #404040;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 30px;
+}
+.left-side {
+  width: 30%;
+  background-color: #ffcc00;
+}
+.my-contact {
+  margin-left: 30px;
+}
+.about {
+  margin: 25px;
+}
+.hobby-container {
+  display: flex;
+  padding-bottom: 40%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.right-side {
+  width: 70%;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.border-name {
+  height: 240px;
+  margin-top: 120px;
+  margin-left: 20px;
+  font-size: 500;
+}
+.name-style h1 {
+  font-size: 50px;
+}
+.name-style h3 {
+  font-size: 30px;
+  color: #595959;
+}
+.dot-style {
+  color: rgb(255, 196, 1);
+  font-size: 15px;
+  margin-right: 10px;
+  margin-left: 15px;
+}
+
+u {
+  text-decoration-line: underline;
+  text-decoration-color: rgb(255, 196, 1);
+}
+.education-box {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.years-style {
+  text-align: left;
+  margin-left: 20px;
+}
+.school-style {
+  text-align: start;
+  margin-left: 200px;
+  margin-top: 10px;
+}
+.small-box {
+  margin-bottom: 5px;
+}
+hr {
+  text-decoration-line: underline;
+  text-decoration-color: rgb(255, 196, 1);
+}
+.experience-box {
+  display: flex;
+  flex-direction: row;
+}
+.small-box2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 1px;
+}
+.dates-experience {
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.work-place {
+  margin-left: 200px;
+  margin-bottom: 10px;
+}
+.reference-box {
+  display: flex;
+  flex-direction: row;
+}
+.web-openclasrooms {
+  margin-left: 300px;
+}
