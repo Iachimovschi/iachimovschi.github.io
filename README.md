@@ -1,2 +1,2 @@
-# natalia-github.io
+# natalia.github.io
 resume
