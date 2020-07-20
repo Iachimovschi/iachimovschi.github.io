@@ -1,2 +1,0 @@
-# natalia.github.io
-resume
