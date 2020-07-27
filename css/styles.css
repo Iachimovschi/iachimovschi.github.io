@@ -11,37 +11,9 @@
   color: rgb(53, 46, 28);
 }
 
-.image-style {
-  display: block;
-  border-radius: 110px;
-  border: 3px solid #d18904;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 60px;
-  height: 200px;
-  width: 200px;
-}
-
-.icon-style {
-  margin: 0 10px 0 0;
-  color: rgb(255, 196, 1);
-  font-size: 25px;
-}
-
-.suitcase-style {
-  color: pink;
-  justify-content: space-around;
-}
-
-.film-style {
-  color: black;
-  justify-content: space-around;
-  align-items: flex-end;
-}
-
-.diamond-style {
-  color: lightblue;
-  align-items: center;
+.left-side {
+  width: 35%;
+  background-color: #ffcc00;
 }
 
 .left-side h3 {
@@ -53,18 +25,52 @@
   font-size: 30px;
 }
 
-.left-side {
-  width: 30%;
-  background-color: #ffcc00;
+.image-style {
+  display: block;
+  border-radius: 68%;
+  border: 3px solid #d18904;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  height: 70%px;
+  width: 68%;
 }
 
-.my-contact {
-  margin: 25px;
+.contact {
+  margin: 10%;
+  margin-right: 10%;
+
 }
 
 .about {
   margin: 25px;
   margin-bottom: 100px;
+}
+
+
+.icon-style {
+  margin: 0 10px 0 0;
+  color: rgb(255, 196, 1);
+  font-size: 25px;
+}
+
+.suitcase-style {
+  color: pink;
+  justify-content: space-around;
+  font-size: smaller;
+}
+
+.film-style {
+  color: black;
+  justify-content: space-around;
+  align-items: flex-end;
+  font-size: smaller;
+}
+
+.diamond-style {
+  color: lightblue;
+  align-items: center;
+  font-size: smaller;
 }
 
 .hobby-container {
@@ -73,14 +79,12 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-
-
 }
 
 .right-side {
-  width: 70%;
+  width: 65%;
   margin-left: 40px;
-  margin-right: 40px;
+  margin-right: 5%;
 }
 
 .name-section {
@@ -93,9 +97,6 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 38px;
   font-weight: 100;
-  margin-bottom: 0;
-
-
 }
 
 .first-name {
@@ -106,7 +107,6 @@
 .name-style h2 {
   color: #595959;
   margin: 0;
-
 }
 
 .dot-style {
@@ -175,163 +175,38 @@ u {
   margin-left: 90px;
 }
 
-
-
 .reference-box {
   display: flex;
   flex-direction: row;
   margin-top: 20px;
+
 }
 
-.web-openclasrooms {
-
-  margin-left: 250px;
-  ;
+.amazon {
+  margin-left: 5%;
 }
 
-@media (max-width: 600px) {
-
-  /* For mobile phones: */
-  .col-12,
-  .col-1,
-  .col-2,
-  .col-3,
-  .col-4,
-  .col-5,
-  .col-6,
-  .col-7,
-  .col-8,
-  .col-9,
-  .col-10,
-  .col-11 {
-    width: 100% !important;
-  }
+.web {
+  margin-left: 20%;
+  margin-right: 10%;
 }
 
-@media (min-width: 600px) {
-
-  /* For tablets: */
-  .col-1 {
-    width: 8.33%;
-    float: left;
-  }
-
-  .col-2 {
-    width: 16.66%;
-    float: left;
-  }
-
-  .col-3 {
-    width: 25%;
-    float: left;
-  }
-
-  .col-4 {
-    width: 33.33%;
-    float: left;
-  }
-
-  .col-5 {
-    width: 41.66%;
-    float: left;
-  }
-
-  .col-6 {
-    width: 50%;
-    float: left;
-  }
-
-  .col-7 {
-    width: 58.33%;
-    float: left;
-  }
-
-  .col-8 {
-    width: 66.66%;
-    float: left;
-  }
-
-  .col-9 {
-    width: 75%;
-    float: left;
-  }
-
-  .col-10 {
-    width: 83.33%;
-    float: left;
-  }
-
-  .col-11 {
-    width: 91.66%;
-    float: left;
-  }
-
-  .col-12 {
-    width: 100%;
-    float: left;
-  }
-}
-
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
 
   /* For desktop: */
-  .col-1 {
-    width: 8.33%;
-    float: left;
+  .left-side {
+    widths: 100%
   }
 
-  .col-2 {
-    width: 16.66%;
-    float: left;
-  }
-
-  .col-3 {
-    width: 25%;
-    float: left;
-  }
-
-  .col-4 {
-    width: 33.33%;
-    float: left;
-  }
-
-  .col-5 {
-    width: 41.66%;
-    float: left;
-  }
-
-  .col-6 {
-    width: 50%;
-    float: left;
-  }
-
-  .col-7 {
-    width: 58.33%;
-    float: left;
-  }
-
-  .col-8 {
-    width: 66.66%;
-    float: left;
-  }
-
-  .col-9 {
-    width: 75%;
-    float: left;
-  }
-
-  .col-10 {
-    width: 83.33%;
-    float: left;
-  }
-
-  .col-11 {
-    width: 91.66%;
-    float: left;
-  }
-
-  .col-12 {
+  .right-side {
     width: 100%;
-    float: left;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+
+  /* For mobile phones: */
+  class {
+    width: 100%
   }
 }
