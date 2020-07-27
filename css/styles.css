@@ -202,11 +202,24 @@ u {
     width: 100%;
   }
 }
-
 @media only screen and (min-width: 600px) {
 
   /* For mobile phones: */
   class {
     width: 100%
   }
+
+  .parent {
+    flex-direction: column;
+  }
+
+  ​ .left-side {
+    width: 100%;
+  }
+
+  .right-side {
+    width: 100%;
+  }
+
 }
+
